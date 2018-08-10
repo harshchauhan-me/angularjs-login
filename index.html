@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular JS Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <h2>
+            AngularJS Login App
+        </h2>
+    </div>
+
+    <div>
+        <div ng-view></div>
+    </div>
+    <!-- angular scripts -->
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.js"></script>
+
+    <!-- app scripts -->
+    <script src="main.js"></script>
+    <script src="main.config.js"></script>
+    <!-- <script src="main.run.js"></script> -->
+    <script src="services/loginservice.js"></script>
+    <script src="controllers/loginCtrl.js"></script>
+</body>
+
+</html>

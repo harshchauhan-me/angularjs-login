@@ -1,0 +1,15 @@
+<div ng-controller="loginCtrl">
+    <div>
+        <h3>
+            {{welcome}}
+        </h3>
+    </div>
+
+    <div>
+        Username: <input type="text" name="uname" ng-model="uname">
+        <br /> <br />
+        Password: <input type="password" name="pass" ng-model="pass">
+        <br /> <br />
+        <input type="button" value="Login" ng-click="getUserAcces(uname,pass)">
+    </div>
+</div>
